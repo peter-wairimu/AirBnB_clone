@@ -51,6 +51,7 @@ class BaseModel:
         Return a dictionary representation of the instance
         """
         dict_new = {}
+
         for key, values in self.__dict__.items():
             if key == 'created_at' or key == 'updated_at':
                 dict_new[key] = values.strftime("%Y-%m-%dT%H:%M:%S.%f")
