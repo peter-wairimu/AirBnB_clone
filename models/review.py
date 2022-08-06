@@ -2,7 +2,7 @@
 """ 
     Import modules and packages 
 """
-from numpy import place
+
 from models.base_model import BaseModel
 
 
