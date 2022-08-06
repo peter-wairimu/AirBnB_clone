@@ -10,4 +10,5 @@ python3.8.10
 
 |   **File**   |   **Description**   |
 | -------------- | --------------------- |
-|[AUTHORS](./AUTHORS) | Contains information about authors of the project |
+|[AUTHORS](./AUTHORS) | Contains information about authors of the project |[models](./models) | Contains classes that are used for the entire project and OOP representation of data
+|
