@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-unitest for user class
+unitest for a user class
 
 """
 import unittest
