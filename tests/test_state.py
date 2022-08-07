@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-State class Unitest
+The State class Unitest
 """
 import unittest
 from models.state import State
@@ -19,7 +19,7 @@ class TestState(unittest.TestCase):
         """
         self.assertEqual(str(type(self.state)), "<class 'models.state.State'>")
 
-    
+
     def test_state_inheritance(self):
         """
         Test state inheritance
@@ -48,4 +48,3 @@ class TestState(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-    
