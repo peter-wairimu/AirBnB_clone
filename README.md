@@ -14,4 +14,5 @@ python3.8.10
 |[tests](./tests) | Has all unit tests
 |[Console](./console.py) | Python file that represents the entry point.
 |[Base Model](./models/base_model.py) | This is the base class for all our models. It has attributes: id, created_at, upadate_at and methods: save(), to_json()
+|[Engine](./models/engine) | This directory contains storage information. For the moment, the information contained is on file_storage
 |
