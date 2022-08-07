@@ -9,7 +9,7 @@ import datetime
 
 class TestAmenity(unittest.TestCase):
     """
-    Testaminity class
+    Test aminity class
     """
 
     amenity = Amenity()
@@ -50,5 +50,3 @@ class TestAmenity(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-        
-        
