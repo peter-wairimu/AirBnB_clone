@@ -8,7 +8,7 @@ from models.base_model import BaseModel
 
 class City(BaseModel):
     """
-    defines a city
+    defines a city class attributes
     """
     state_id = ""
     name = ""
