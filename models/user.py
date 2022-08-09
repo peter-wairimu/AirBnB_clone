@@ -11,6 +11,6 @@ class User(BaseModel):
     Defines a user class and attributes
     """
     email = ""
-    password =  ""
+    password = ""
     first_name = ""
     last_name = ""

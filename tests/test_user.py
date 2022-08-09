@@ -18,7 +18,10 @@ class TestUser(unittest.TestCase):
         """
         test user init
         """
-        self.assertEqual(str(type(self.user)), "<class 'models.user.User'>")
+        self.assertEqual(
+            str(type(self.user)),
+            "<class 'models.user.User'>"
+        )
 
     def test_user_inheritance(self):
         """

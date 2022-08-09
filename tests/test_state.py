@@ -19,7 +19,6 @@ class TestState(unittest.TestCase):
         """
         self.assertEqual(str(type(self.state)), "<class 'models.state.State'>")
 
-
     def test_state_inheritance(self):
         """
         Test state inheritance
