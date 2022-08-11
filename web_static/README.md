@@ -13,4 +13,5 @@ css
 | -------------- | --------------------- |
 |[Task 0](./0-index.html) | basic html structure with header and footer.
 |[Task 1](./1-index.html) | basic html structure with header and footer with styling on head tags.
+|[Task 2](./2-index.html) | basic html structure with header and footer with styling and styles on a different folder [styles](./styles).
 |
