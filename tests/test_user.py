@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-unitest for user class
+unitest for a user class
 
 """
 import unittest
@@ -18,7 +18,10 @@ class TestUser(unittest.TestCase):
         """
         test user init
         """
-        self.assertEqual(str(type(self.user)), "<class 'models.user.User'>")
+        self.assertEqual(
+            str(type(self.user)),
+            "<class 'models.user.User'>"
+        )
 
     def test_user_inheritance(self):
         """

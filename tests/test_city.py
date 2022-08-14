@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Unittest for City class
+Unittest for a City class
 """
 import unittest
 from models.city import City
@@ -44,6 +44,7 @@ class TestCity(unittest.TestCase):
         self.assertIsInstance(self.city.id, str)
         self.assertIsInstance(self.city.created_at, datetime.datetime)
         self.assertIsInstance(self.city.updated_at, datetime.datetime)
+
 
 if __name__ == '__main__':
     unittest.main()

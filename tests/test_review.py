@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Unittest for review.py
+Unittest for review.py file
 
 """
 import datetime
@@ -19,7 +19,10 @@ class TestReview(unittest.TestCase):
         """
         test for review class
         """
-        self.assertEqual(str(type(self.review)), "<class 'models.review.Review'>")
+        self.assertEqual(
+            str(type(self.review)),
+            "<class 'models.review.Review'>"
+        )
 
     def test_review_inheritance(self):
         """
@@ -48,6 +51,7 @@ class TestReview(unittest.TestCase):
         self.assertIsInstance(self.review.id, str)
         self.assertIsInstance(self.review.created_at, datetime.datetime)
         self.assertIsInstance(self.review.updated_at, datetime.datetime)
+
 
 if __name__ == '__main__':
     unittest.main()

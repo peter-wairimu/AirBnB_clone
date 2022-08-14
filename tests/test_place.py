@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Unittest for place class
+Unittest for q place class
 """
 import unittest
 from models.place import Place
@@ -17,7 +17,10 @@ class TestPlace(unittest.TestCase):
         """
         test place init
         """
-        self.assertEqual(str(type(self.place)), "<class 'models.place.Place'>")
+        self.assertEqual(
+            str(type(self.place)),
+            "<class 'models.place.Place'>"
+        )
 
     def test_place_inheritance(self):
         """

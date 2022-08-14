@@ -9,7 +9,7 @@ import datetime
 
 class TestAmenity(unittest.TestCase):
     """
-    Testaminity class
+    Test aminity class
     """
 
     amenity = Amenity()
@@ -18,15 +18,16 @@ class TestAmenity(unittest.TestCase):
         """
         Test for amenity class
         """
-        self.assertEqual(str(type(self.amenity)), "<class 'models.amenity.Amenity'>")
-
+        self.assertEqual(
+            str(type(self.amenity)),
+            "<class 'models.amenity.Amenity'>"
+        )
 
     def test_amenity_inheritance(self):
         """
         Test for amenity inheritance
         """
         self.assertIsInstance(self.amenity, Amenity)
-
 
     def test_amenity_attributes(self):
         """
@@ -36,7 +37,6 @@ class TestAmenity(unittest.TestCase):
         self.assertTrue(hasattr(self.amenity, "id"))
         self.assertTrue(hasattr(self.amenity, "created_at"))
         self.assertTrue(hasattr(self.amenity, "updated_at"))
-
 
     def test_amenity_type(self):
         """
@@ -50,5 +50,3 @@ class TestAmenity(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-        
-        

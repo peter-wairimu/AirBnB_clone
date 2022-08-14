@@ -1,6 +1,6 @@
 #! /usr/bin/python3
-""" 
-Import modules and packages 
+"""
+Import modules and packages
 
 """
 
@@ -9,7 +9,7 @@ from models.base_model import BaseModel
 
 class Place(BaseModel):
     """
-    Defines place class
+    Defines place class and it's attributes
 
     """
     city_id = ""
@@ -23,4 +23,3 @@ class Place(BaseModel):
     latitude = 0.0
     longitude = 0.0
     amenity_ids = []
-    

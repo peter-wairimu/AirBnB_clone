@@ -1,6 +1,7 @@
 #!usr/bin/python3
 """
-BaseModel class that defines all common attributes and methods for other classes
+BaseModel class that defines all
+common attributes and methods for other classes
 
 """
 
@@ -9,13 +10,15 @@ import uuid
 from datetime import datetime
 from models import storage
 
+
 class BaseModel:
     """
-    BaseModel class that defines all common attributes and methods for other classes
+    BaseModel class that defines all common
+    attributes and methods for other classes
     """
     def __init__(self, *args, **kwargs):
         """
-        Initialize a new instance of Basemodel
+        Initialize a new instance of Basemodel class
         """
         if not kwargs:
             self.id = str(uuid.uuid4())
@@ -36,7 +39,9 @@ class BaseModel:
         Return a string representation of the instance
         """
         class_name = "[" + self.__class__.__name__ + "]"
-        new_dict = {k: v for (k, v) in self.__dict__.items() if (not v) is False}
+        new_dict = {
+            k: v for (k, v) in self.__dict__.items() if (not v) is False
+        }
         return class_name + "(" + self.id + ") " + str(new_dict)
 
     def save(self):
@@ -45,7 +50,7 @@ class BaseModel:
         """
         self.updated_at = datetime.now()
         storage.save()
-        
+
     def to_dict(self):
         """
         Return a dictionary representation of the instance
