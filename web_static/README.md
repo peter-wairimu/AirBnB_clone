@@ -20,5 +20,14 @@ css
 |
 |[Task 2](./4-index.html) | HTML page that displays a header, footer and a filters box with a search button.
 |
-|[Task 2](./2-index.html) | basic html structure with header and footer with styling and styles on a different folder [styles](./styles).
+|[Task 2](./5-index.html) |  HTML page that displays a header, footer and a filters box.
+
+ [styles](./styles).
 |
+
+|[Task 2](./6-index.html) | HTML page that displays a header, footer and a filters box with dropdown.
+
+ [styles](./styles).
+|
+
+
