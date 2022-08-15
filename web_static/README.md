@@ -15,3 +15,10 @@ css
 |[Task 1](./1-index.html) | basic html structure with header and footer with styling on head tags.
 |[Task 2](./2-index.html) | basic html structure with header and footer with styling and styles on a different folder [styles](./styles).
 |
+
+|[Task 2](./3-index.html) |  HTML page that displays a header and footer by using CSS files (same as 2-index.html).
+|
+|[Task 2](./4-index.html) | HTML page that displays a header, footer and a filters box with a search button.
+|
+|[Task 2](./2-index.html) | basic html structure with header and footer with styling and styles on a different folder [styles](./styles).
+|
