@@ -31,3 +31,12 @@ css
 |
 
 
+|[Task 2](./7-index.html) | HTML page that displays a header, footer, a filters box with dropdown and results.
+ [styles](./styles).
+|
+|[Task 2](./8-index.html) |  HTML page that displays a header, a footer, a filter box (dropdown list) and the result of the search.
+ [styles](./styles).
+|
+|[Task 2](./9-index.html) | HTML page that displays a header, footer, a filters box with dropdown and results.
+ [styles](./styles).
+|
